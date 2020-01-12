@@ -9,6 +9,7 @@ html, body {
     padding-top: 200px;
 }
 .sol-item {
+    /*background: url('../../dashboard/image/epin.JPG');*/
     background: url('../../dashboard/image/anime-bg.jpg');
     background-size: cover;
     height: 20vw;
@@ -32,4 +33,20 @@ html, body {
 .sol-capt p {
     font-size: 30px;
     color: rgba(255, 255, 255, 1.0)
+}
+.ibarra {
+    font-family: 'Ibarra Real Nova', serif;;
+}
+.work-item {
+    overflow: hidden;
+    height: 30vw;
+    background: salmon;
+    display: block;
+    position: relative;
+}
+.work-item img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
