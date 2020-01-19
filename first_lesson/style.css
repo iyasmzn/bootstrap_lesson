@@ -50,3 +50,38 @@ html, body {
     left: 50%;
     transform: translateX(-50%);
 }
+.item-bg {
+    background: url('https://colorlib.com/preview/theme/busicol/img/banner/about_bg.png');
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+.item-bg-redup {
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    background: black;
+    opacity: 0.5;
+}
+.item-bg-item {
+    height: 20vw;
+    position: relative;
+    border: 1px solid white;
+}
+.item-bg-capt {
+    position: absolute;
+    top: 50%;left: 0;right: 0;
+    transform: translateY(-50%);
+}
+.item-bg-capt i {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 1.0)
+}
+.item-bg-capt p {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1.0)
+}
+.footer-list a {
+    display: block;
+    margin-bottom: 1rem;
+    color: inherit;
+}
