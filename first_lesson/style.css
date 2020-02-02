@@ -51,7 +51,7 @@ html, body {
     transform: translateX(-50%);
 }
 .item-bg {
-    background: url('https://colorlib.com/preview/theme/busicol/img/banner/about_bg.png');
+    /*background: url('https://colorlib.com/preview/theme/busicol/img/banner/about_bg.png');*/
     padding: 100px 0;
     position: relative;
     overflow: hidden;

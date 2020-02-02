@@ -2,27 +2,32 @@
 <html>
 <head>
 	<title></title>
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="./style.css">
 	<!-- Bootsrtap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+	<!-- Animate On Scroll ( A O S ) -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- FontGoogle -->
 	<link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body class="ibarra">
 	<nav class="navbar navbar-expand-sm bg-dark justify-content-between">
 		<a href="">BuSicol</a>
 	  <ul class="navbar-nav">
 	    <li class="nav-item">
-	      <a class="nav-link" href="#">Link 1</a>
+	      <a class="nav-link small" href="#">Link 1</a>
 	    </li>
 	    <li class="nav-item">
-	      <a class="nav-link" href="#">Link 2</a>
+	      <a class="nav-link small" href="#">Link 2</a>
 	    </li>
 	    <li class="nav-item">
-	      <a class="nav-link" href="#">Link 3</a>
+	      <a class="nav-link small" href="#">Link 3</a>
 	    </li>
 	  </ul>
 		<a href="#" class="btn btn-outline-light">Get a Coffee</a>
@@ -34,9 +39,9 @@
 		<button class="btn btn-outline-light btn-lg">Button 2</button>
 	</div>	
 	<div class="container text-center">
-		<h1 class="my-5">Explore our solutions</h1>
+		<h1 class="my-5" data-aos="fade-up">Explore our solutions</h1>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="flip-left">
 				<div class="sol-item">
 					<div class="sol-overlay"></div>
 					<div class="sol-capt">
@@ -46,7 +51,7 @@
 					<div class="sol-hover"></div>
 				</div>
 			</div>
-			<div claqss="col-md-4">
+			<div claqss="col-md-4" data-aos="flip-left">
 				<div class="sol-item">
 					<div class="sol-overlay"></div>
 					<div class="sol-capt">
@@ -56,7 +61,7 @@
 					<div class="sol-hover"></div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="flip-left">
 				<div class="sol-item">
 					<div class="sol-overlay"></div>
 					<div class="sol-capt">
@@ -66,7 +71,7 @@
 					<div class="sol-hover"></div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" data-aos="flip-left">
 				<div class="sol-item">
 					<div class="sol-overlay"></div>
 					<div class="sol-capt">
@@ -149,7 +154,7 @@
 		</div>
 		<button class="btn btn-outline-success">More Works</button>
 	</div>
-	<div class="item-bg text-center mt-5">
+	<div class="item-bg text-center mt-5" data-parallax="scroll" data-image-src="https://colorlib.com/preview/theme/busicol/img/banner/about_bg.png">
 		<div class="item-bg-redup"></div>
 		<div class="container">
 			<div class="row">
@@ -201,6 +206,20 @@
 				<img src="https://colorlib.com/preview/theme/busicol/img/about/about.png" class="w-100">
 			</div>
 		</div>
+	</div>
+	<div class="owl-carousel owl-theme">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
 	</div>
 	<div class="bg-success py-5 mt-5 text-light text-center">
 		<h2>Lorem ipsum dolor</h2>
@@ -256,17 +275,25 @@
 			</div>
 		</div>
 	</div>
-	<div class="py-3 text-center bg-secondary">
+	<div class="pt-3 text-center bg-secondary">
 		<p>Copyright &copy;2020 All Right Reserved | Made by <a href="#" class="text-info">asd</a></p>
 	</div>			
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- Font Awesome -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script> -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!-- Font Awesome -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script> -->
+	<!-- Owl Carousel -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- Animate On Scroll ( A O S ) -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- Parallax -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
+	<!-- My Script -->
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
